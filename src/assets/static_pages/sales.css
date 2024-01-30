@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+body {
+    background-color: #F2F2F2;
+}
+
+
+.menu {
+    justify-content: space-between;
+    /* align-items: center; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: #fff;
+    opacity: 60%;
+    height: 60px;
+    width: 100%;
+    box-shadow: 0 0 22px rgba(33,33,33,.2); 
+}
+
+.logo{
+    
+    margin-left: 71px;
+    margin-top: 15px;
+    font-family: "Quicksand";
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.auth {
+    display: flex;
+    margin-right: 25px;
+    font-family: 'Raleway';
+    align-items:center;
+    gap: 5px;
+}
+
+.menu input[type=text] {
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px; 
+    height: 20px;
+    width: 250px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.sales {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.price {
+    margin: 20px;
+    font-family: "Roboto";
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 370px;
+}
+
+.house {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* justify-content: center; */
+    width: 550px;
+    background-repeat: no-repeat;
+    background-size: 100% 60%;
+    max-width: 100%;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    height: 590px;
+    background-color: white;
+    margin-bottom: 50px;
+    
+}
+
+.area {
+    font-family: 'Roboto'; 
+    font-size: 25px; 
+    margin-left: 20px;
+}
+
+.address {
+    font-family: 'Roboto';
+    font-size: 25px;
+    margin-left: 20px;
+    padding-top: 35px;
+}

@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+body {
+    background-color: #F2F2F2;
+}
+
+.first_page {
+    height: 100vh;
+    /* display: flex; */
+    background: url("background_img.png") no-repeat center;
+    /* background-position: 30% 50%; 
+    height: 100%; */
+    background-size: cover;
+}
+
+
+.menu {
+    justify-content: space-between;
+    align-items: baseline;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: #fff;
+    opacity: 60%;
+    height: 60px;
+    width: 100%;
+    box-shadow: 0 0 22px rgba(33,33,33,.2); 
+
+}
+
+.logo{
+    
+    margin-left: 71px;
+    margin-top: 15px;
+    font-family: "Quicksand";
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.auth {
+    display: flex;
+    margin-right: 25px;
+    font-family: 'Raleway';
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.intro input[type=text] {
+    align-self: flex-end;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    height: 20px;
+    width: 250px;
+    opacity: 75%;
+    border-radius: 20px;
+  }
+
+  .intro h1 {
+    font-family: 'Raleway';
+    font-size: 75px;
+    color: #fff;
+    margin-left: 50px;
+    padding: 20px;
+  }
+
+  .text {
+    font-family: 'Raleway';
+    font-size: 38px;
+    color: #fff;
+    margin-left: 70px;
+  }
+
+  .boxes {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+  .box {
+    display: flex;
+    flex-direction: column;
+    transition: box-shadow .3s;
+    background-color: white;
+    height: 550px;
+    width: 500px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+  }
+
+  .box:hover {
+    box-shadow: 0 0 25px rgba(33,33,33,.2); 
+  }
+
+  .buy {
+    background-image: url("buy house-01.png");
+    background-repeat: no-repeat;
+    background-position: 0% -100%;
+  }
+
+  .sell {
+    background-image: url("Sell house -01.png");
+    background-repeat: no-repeat; 
+    background-position: 0% -130%;
+  }
+
+  .rent {
+    background-image: url("Rent house-01.png");
+    background-repeat: no-repeat; 
+    background-position: 0% -120%;
+  }
+  .box h1 {
+    align-self: center; margin-top: 280px; font-family: 'Raleway'; font-weight: bold;
+  }
+  .box p {
+    align-self: center; text-align: center; font-family: 'Raleway'; font-size: 20px; padding-top: 20px; 
+  }
+  
+  .box button {
+    background-color: #363535; width: 50%; height: 40px; align-self: center; color: white; font-family: 'Raleway'; font-size: 24px; border-radius: 10px;
+  }
+
+  .box button:hover {
+    cursor: pointer;
+  }
+
+  .explore {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .column {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 700px;
+    width: 30%;
+    background-repeat: no-repeat;
+    justify-content: space-between;
+    background-size: cover;
+    border-radius: 10px;
+    
+    /* background-color: white; */
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 340px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 100px rgba(0,0,0,1);
+
+  }
+  .column p {
+    margin: 20px;
+    font-family: 'Raleway';
+    font-size: 40px;
+    color: white;
+  }
+  .column button {
+    margin: 20px;
+    height: 30px;
+    width: 120px;
+    background-color: white;
+    opacity: 70%;
+    font-family: 'Raleway';
+    font-size: 15px;
+    /* text-align: left; */
+    border-radius: 10px;
+  }
